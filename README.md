@@ -56,3 +56,10 @@ the same way a browser might.
 
 `mktemp` - to make a temporary file.
 - `-d` - to make a temporary folder
+
+`echo $?` - to view the exit status. Will be an int between 0 and 255.
+
+`curl -ILs https://google.com | head -n 1 | cut -d ' ' -f 2` - to get the status code of curl request
+- GET request
+- `head -n 1` - return first row
+- `cut -d ' ' -f 2` - cut using delimeter and get the 2nd item in the list
