@@ -1,4 +1,4 @@
-# dont be tempted to pass args in function parens 
+# don't be tempted to pass args in function parens 
 # its just an indication to bash that its a funtion
 
 greet() {
