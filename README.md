@@ -43,3 +43,16 @@ the same way a browser might.
 - `curl http://myapi/user | jsome` - to pipe the output of the request. 'jsome' here is used to pretty print the JSON response.
 
 `chmod u+x script.sh` - add to the user (u) the permission to execute (x) a script 
+
+`echo $PATH` - prints out a colon seperated list of folders where your shell looks for executables
+
+`cp scaffold-js.sh /usr/local/bin/scaffold-js` - to make your script executable from an directory. Then do `which scaffold-js` to check to see it worked
+
+`name=code` - to set a local variable in a bash session. N.B. by default, the variable is not visible to scripts executed in the context of the same shell.
+- `export name` - to make the variable visible to child processes, commands, scripts, etc. executed in the context of the same shell
+- `unset name` - to unset a variable
+
+`env` - to see the global environment variables set by Bash.
+
+`mktemp` - to make a temporary file.
+- `-d` - to make a temporary folder
