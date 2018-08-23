@@ -46,7 +46,7 @@ the same way a browser might.
 
 `echo $PATH` - prints out a colon seperated list of folders where your shell looks for executables
 
-`cp scaffold-js.sh /usr/local/bin/scaffold-js` - to make your script executable from an directory. Then do `which scaffold-js` to check to see it worked
+`cp scaffold-js.sh /usr/local/bin/scaffold-js` - to make your script executable from any directory. Then do `which scaffold-js` to check to see it worked
 
 `name=code` - to set a local variable in a bash session. N.B. by default, the variable is not visible to scripts executed in the context of the same shell.
 - `export name` - to make the variable visible to child processes, commands, scripts, etc. executed in the context of the same shell
